@@ -6,7 +6,7 @@ printf("Enter the x,y,z values");
 scanf("%d%d%d",&x,&y,&z);
 if((x>y)&&(x>z))
 {
-printf("\n x is greatest than y and z");
+printf("x is greatest than y and z");
 }
 else if((y>x)&&(y>z))
 {
