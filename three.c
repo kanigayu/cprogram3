@@ -2,20 +2,17 @@
 int main()
 {
 int x,y,z;
-printf("Enter the number");
+printf("Enter the x,y,z values");
 scanf("%d%d%d",&x,&y,&z);
-if(x>y)
+if((x>y)&&(x>z))
 {
-if(x<z)
-printf("x is greatest");
-else
-printf("z is greater");
+printf("\n x is greatest than y and z);
 }
-else
+if((y>x)&&(y>z))
 {
-if(y>z)
-printf("y is greater");
-else
-printf("z is greater");
+  printf("\n y is greater than x and z");
 }
-}
+if((z>y)&&(z>x))
+       {
+         printf("\n z is greater than x and y");
+       }
